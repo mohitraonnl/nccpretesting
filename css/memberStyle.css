@@ -1,0 +1,193 @@
+.background_image{
+	position: relative;
+	height:700px;
+	background-image: url('image1/nccprofilephoto.jpg');
+	margin-top: 30px;
+	background-position: center; 
+  	background-repeat: no-repeat; 
+  	background-size: cover; 
+}
+#title{
+	color:black;
+	text-align: center;
+	/*font-family: 'Lora',serif;*/
+	font-family: 'Castoro', serif;
+}
+#logo{ 
+	position:fixed;
+	font-size: 300%;
+	bottom:0; 
+	right:0; 
+	z-index: 10;
+} 
+.ncc_name{
+	text-shadow: 0 0 3px #FF0000;;
+	padding-top: 0.5%;
+	letter-spacing: 0.5rem;
+
+}
+@media screen and (	max-width: 650px) {
+	.ncc_name{
+	font-size:100%;
+	letter-spacing: 0rem;
+}
+}
+.college{
+	padding-top: 3%;
+	letter-spacing: 0.15rem;
+	text-shadow: 0 0 3px  #448ee4;
+	/*font-family: 'Castoro', serif;*/
+	font-family: 'Lora',serif;
+	font-size:175%;
+
+}
+@media screen and (	max-width: 650px) {
+	.college{
+		padding-top: 8%;
+	font-size:70%;
+	letter-spacing: 0rem;
+}
+}
+
+.university_log{
+	text-align: center;
+	padding-top: 2%;
+	width: 100px;
+	height:100px;
+	padding-left:3px;
+}
+@media screen and (	max-width: 650px) {
+	.university_log{
+	text-align: center;
+	padding-top: 2%;
+	width: 40px;
+	height:40px;
+	padding-left:2px;
+}
+}
+.ncc_log{
+	padding-top: 2%;
+	text-align: center;
+	width: 100px;
+	height:100px;
+	padding-right: 3px;
+}
+@media screen and (	max-width: 650px) {
+.ncc_log{
+	padding-top: 2%;
+
+	text-align: center;
+	width: 50px;
+	height:50px;
+	padding-right: 3px;
+}}
+.Member_title{
+	padding-top: 1%;
+	text-shadow: 0 0 3px  #448ee4;
+}
+@media screen and (	max-width: 650px) {
+.Member_title{
+	padding-top: 2%;
+	font-size: 150%;
+}}
+/*#first_batch{
+	background-color: Black;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	text-shadow: 0 0 3px  #448ee4;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 10%;
+	/*font-family: 'Lora',serif;*/
+	/*font-family: 'Castoro', serif;*/
+/*}*/
+.first_batch_name{
+	padding-top: 10%;
+	padding-bottom: 3%;
+	background-color: Black;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	text-shadow: 0 0 3px  #448ee4;
+}
+#first_batch_gap{
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 10%;
+	background-color: Black;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	text-shadow: 0 0 3px  #448ee4;
+
+}
+@media screen and (	max-width: 650px) {
+#first_batch_gap{
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 10%;
+	background-color: Black;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	text-shadow: 0 0 3px  #448ee4;
+
+}
+
+}
+
+.cadet_title{
+	padding-top: 2%;
+	padding-bottom: 4%;
+	letter-spacing: 0.25rem;
+	text-shadow: 0 0 3px #FF0000;;
+}
+.photo_row{
+	padding-bottom:10%;
+
+}
+@media screen and (	max-width: 650px) {
+	.photo_row{
+	padding-bottom:30%;
+}
+
+}
+
+.image_setting{
+	width: 300px;
+	height: 300px;
+}
+@media screen and (	max-width: 600px) {
+	.image_setting {
+	width: 300px;
+	height: 400px;
+}
+
+}
+.directid{
+	margin:20px 10px;
+	font-size: 150%;
+
+}
+#our_contact{
+	background-color: Black;
+	color: #fff;
+	text-align: center;
+
+}
+ .second_space{
+ 	padding-top: 3%;
+ 	padding-bottom: 10%;
+ }
+ .contact_detail_name{
+ 	padding-top: 4%;
+ 	color:#1865E7;
+ }
+.footer_ncc{
+	padding-top: 4%;
+}
+.spaceid{
+	padding-bottom:4%;
+	padding-top: 4%;
+}
+.copyright{
+	padding-top: 10%;
+	padding-bottom: 2%;
+}

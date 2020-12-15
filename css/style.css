@@ -1,0 +1,203 @@
+.background_image{
+	position: relative;
+	height:700px;
+	background-image: url('image1/nccprofilephoto.jpg');
+	margin-top: 58px;
+	background-position: center; 
+  	background-repeat: no-repeat; 
+  	background-size: cover; 
+}
+	/*.navbar{
+	    box-shadow: 0px 8px 8px -6px rgba(0,0,0,2);
+	    }*/
+	/*.navbar {
+	    -webkit-box-shadow: 0 8px 6px -6px #999;
+	    -moz-box-shadow: 0 8px 6px -6px #999;
+	    box-shadow: 0 8px 6px -6px #999;
+
+	    /* the rest of your styling */
+	/*}*/
+#title{
+	color:black;
+	text-align: center;
+	/*font-family: 'Lora',serif;*/
+	font-family: 'Castoro', serif;
+}
+.college{
+	padding-top: 3%;
+	letter-spacing: 0.15rem;
+	text-shadow: 0 0 3px  #448ee4;
+	/*font-family: 'Castoro', serif;*/
+	font-family: 'Lora',serif;
+	font-size:175%;
+
+}
+@media screen and (	max-width: 650px) {
+	.college{
+		padding-top: 8%;
+	font-size:70%;
+	letter-spacing: 0rem;
+}
+}
+.ncc_name{
+	text-shadow: 0 0 3px #FF0000;;
+	padding-top: 0.5%;
+	letter-spacing: 0.5rem;
+
+}
+@media screen and (	max-width: 650px) {
+	.ncc_name{
+	font-size:100%;
+	letter-spacing: 0rem;
+}
+}
+.unit_name{	text-shadow: 0 0 3px #FF0000;
+	font-family: 'Lora',serif;
+}
+@media screen and (	max-width: 650px) {
+	.unit_name{
+	font-size:50%;
+	letter-spacing: 0rem;
+}
+}
+.ncc_log{
+	padding-top: 2%;
+	text-align: center;
+	width: 100px;
+	height:100px;
+	padding-right: 3px;
+}
+@media screen and (	max-width: 650px) {
+.ncc_log{
+	padding-top: 2%;
+
+	text-align: center;
+	width: 50px;
+	height:50px;
+	padding-right: 3px;
+}}
+.university_log{
+	text-align: center;
+	padding-top: 2%;
+	width: 100px;
+	height:100px;
+	padding-left:3px;
+}
+@media screen and (	max-width: 650px) {
+	.university_log{
+	text-align: center;
+	padding-top: 2%;
+	width: 40px;
+	height:40px;
+	padding-left:2px;
+}
+}
+#about_university{
+	text-align: center;
+}
+
+.title_university{
+	text-align: center;
+	padding-top: 7%;
+	color: #353839;
+	font-family: 'Castoro', serif;
+}
+@media screen and (	max-width: 650px) {
+	.title_university{
+		padding-top: 10%;
+	font-size: 25px;
+}
+}
+.paragraph_about_university{
+	text-align: center;
+	color: #555555;
+	
+	padding: 3% 10% 1% 10%;
+	font-family: 'Lora',serif;
+}
+@media screen and (	max-width: 650px) {
+	.paragraph_about_university{
+	padding: 5% 4% 5% 4%;
+	font-size: 12px;
+}
+}
+
+.button_left{
+	text-align: center;
+	padding: 3% 50% 2% 50%;
+
+}
+.button_right{
+	text-align: center;
+	padding: 3% 50% 2% 50%;
+}
+.button_middle{
+	text-align: center;
+	padding: 3% 50% 2% 50%;
+}
+
+.button_university{
+	padding-bottom: 5%;
+}
+.btn_phone{
+	border-radius: 20px;
+	font-size: 30px;
+	font-family: 'Castoro', serif;
+
+}
+@media screen and (	max-width: 650px) {
+	.btn_phone{
+		font-size: 10px;
+		font-family: 'Castoro', serif;
+
+}
+}
+#third_template{
+	text-align: center;
+	background-color: #f6f6f6;
+	border-right: red;
+	font-family: 'Castoro', serif;
+}
+.about_us_ncc{
+	padding:4% 20% 4% 20%;
+	text-align: left;
+	font-family: 'Lora',serif;
+
+}
+@media screen and (	max-width: 650px) {
+	.about_us_ncc{
+		text-align: center;
+		padding: 5% 7% 5% 7%;
+	font-size: 15px;
+}
+}
+.directid{
+	margin:20px 10px;
+	font-size: 150%;
+
+}
+#our_contact{
+	color: black;
+	padding-top: 15%;
+	text-align: center;
+
+}
+ .second_space{
+ 	padding-top: 3%;
+ 	padding-bottom: 10%;
+ }
+ .contact_detail_name{
+ 	padding-top: 4%;
+ 	color:#1865E7;
+ }
+.footer_ncc{
+	padding-top: 4%;
+}
+.spaceid{
+	padding-bottom:4%;
+	padding-top: 4%;
+}
+.copyright{
+	padding-top: 10%;
+	padding-bottom: 2%;
+}
